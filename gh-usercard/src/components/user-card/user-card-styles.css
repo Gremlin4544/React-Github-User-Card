@@ -1,9 +1,16 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
 }
 
 .details {
     display: flex;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
+}
+
+.user-details {
+    margin: auto;
+}
+
+.gh-login {
+    background-color: aqua;
 }

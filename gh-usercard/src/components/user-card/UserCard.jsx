@@ -21,7 +21,7 @@ const UserCard = props => {
         <div className="user-details">
             <p>ID: {id}</p>
             <p>Name: {name}</p>
-            <p>Login: {login}</p>
+            <p className="gh-login">Login: {login}</p>
             <p>Location: {location}</p>
             <p>Github URL: {url}</p>
             <p>Bio: {bio}</p>
