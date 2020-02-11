@@ -1,5 +1,9 @@
 import React from 'react';
 import "./user-card-styles.css";
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
+} from 'reactstrap';
 
 const UserCard = props => {
   const {
@@ -15,18 +19,18 @@ const UserCard = props => {
 
   return (
     <div className="details">
-        <div className="user-card">
-            <img src={avatar_url} alt="user" />
-         </div>
-        <div className="user-details">
-            <p>ID: {id}</p>
-            <p>Name: {name}</p>
-            <p className="gh-login">Login: {login}</p>
-            <p>Location: {location}</p>
-            <p>Github URL: {url}</p>
-            <p>Bio: {bio}</p>
-            <p>Follower count: {followers}</p>
-        </div>
+        <Card className="card-styles">
+          <CardBody>
+            <CardText className="ctr-text">Name: {name}</CardText>
+            <CardText className="ctr-text">Login: {login}</CardText>
+            <CardImg width="25%" src={avatar_url} alt="user" />
+            <CardText >ID: {id}</CardText>
+            <CardText >Location: {location}</CardText>
+            <CardText >Github URL: {url}</CardText>
+            <CardText >Bio: {bio}</CardText>
+            <CardText >Follower count: {followers}</CardText>
+          </CardBody>
+        </Card>
     </div>
   );
 }

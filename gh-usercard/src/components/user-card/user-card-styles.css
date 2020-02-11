@@ -1,16 +1,26 @@
-* {
-    box-sizing: border-box;
-}
+
 
 .details {
+    text-align: center;
+    width: 30%;
     display: flex;
+
+}
+
+.ctr-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #23bae9;
+}
+
+.card-styles {
     margin-bottom: 5vh;
 }
 
-.user-details {
-    margin: auto;
-}
+/* .card-img, .card-img-bottom, .card-img-top {
+    width:  50%;
+} */
 
-.gh-login {
-    background-color: aqua;
-}
+/* .profile-image-card-img-top {
+    width: 50%;
+} */
