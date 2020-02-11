@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 2vh;
+}

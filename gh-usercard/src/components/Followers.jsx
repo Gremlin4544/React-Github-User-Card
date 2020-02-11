@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import UserCard from './UserCard';
+import UserCard from './user-card/UserCard';
 
 class Followers extends Component {
   state = { followers: [] };

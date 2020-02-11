@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import UserCard from './UserCard';
+import UserCard from '../components/user-card/UserCard';
 
 class Profile extends Component {
   state = { user: null };
